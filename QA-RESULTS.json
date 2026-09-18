@@ -1,0 +1,28 @@
+URL http://127.0.0.1:8765/index.html TITLE Vault Key TYPEOF$ function
+{
+  "create_unlock": true,
+  "storage_plaintext_absent": true,
+  "unique_record_ivs": true,
+  "locked_dom_cleared": true,
+  "wrong_passphrase_rejected": true,
+  "correct_unlock_persists": true,
+  "reload_starts_locked": true,
+  "generator_outputs_change": true,
+  "subresource_requests": [],
+  "stored_keys": [
+    "format",
+    "kdf",
+    "cipher",
+    "meta",
+    "records"
+  ],
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 650000,
+    "salt": "pTmZqlatZmCaHJSfcBi34g=="
+  },
+  "cipher": {
+    "name": "AES-GCM"
+  }
+}
