@@ -1,4 +1,3 @@
-URL http://127.0.0.1:8765/index.html TITLE Vault Key TYPEOF$ function
 {
   "create_unlock": true,
   "storage_plaintext_absent": true,
@@ -26,3 +25,4 @@ URL http://127.0.0.1:8765/index.html TITLE Vault Key TYPEOF$ function
     "name": "AES-GCM"
   }
 }
+
